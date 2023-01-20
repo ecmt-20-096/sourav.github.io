@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: #fff;
+}
+
+/* header section start*/
+#header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/DSC_3522new.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin-top: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 45px;
+}
+
+.logo span {
+    color: #ff004f;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    transition: 0.5s;
+    color: #fff;
+
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+    color: #fff;
+
+
+}
+
+.header-text {
+    margin-top: 10%;
+    font-size: 30px;
+    height: 150px;
+    width: 100%;
+}
+
+.header-text .text-2 {
+    margin-left: 10px;
+}
+
+.header-text .text-1 {
+    font-size: 60px;
+    margin-top: 2%;
+}
+
+.header-text .text-1 .span-1 {
+    color: #ff004f;
+}
+
+/* header section end*/
+
+/* --------------about ------------------ */
+
+.row-1 {
+    height: 100px;
+}
+
+.card-1 {
+    height: 400px;
+    background-color: black;
+    border: none;
+    transition: .3s;
+
+}
+
+.card-1 img {
+    margin-left: 55px;
+    margin-top: 20px;
+    height: 350px;
+    width: 250px;
+    text-transform: 0.3s;
+
+}
+
+.card-2 {
+    height: auto;
+    background-color: black;
+
+}
+
+
+.card-2 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-2 p {
+    font-size: 15px;
+    color: #fff;
+
+}
+
+.card-2 .card3 {
+    height: auto;
+    background-color: black;
+    transition: .3s;
+
+}
+
+.card-2 .card3 p {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.card-2 .card3 ul li {
+    list-style-type: style none;
+    ;
+}
+
+.card-2 .card3 ul li span {
+    font-size: 17px;
+    font-weight: 600;
+    color: #ff004f;
+}
+
+.card-2 .card3 ul li {
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.card6 {
+    height: 100px;
+    background-color: black;
+}
+
+.card6 h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.row-2 {
+    height: 50px;
+}
+
+.card7 {
+    height: auto;
+    border: none;
+    background-color: black;
+}
+
+.card8 {
+    height: 300px;
+    width: 320px;
+    background-color: #35322f;
+    margin-inline-start: 40px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.card8 .fa-bars {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ff004f;
+}
+
+.card8 .fa-user-o {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ff004f;
+}
+
+.card8 .fa-bell-o {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ff004f;
+}
+
+.card8 h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.card8 p {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.card8 .b1 {
+    display: inline-block;
+    height: 40px;
+    width: 45%;
+    margin-left: 27%;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    background-color: #ff004f;
+    color: white;
+
+}
+
+.card8 .b1:hover {
+    background-color: rgb(23, 22, 22);
+    border: 2px solid #ff004f;
+    color: white;
+    transition: .4s;
+}
+
+/* <!-- our service  end--> */
+
+
+/* contact seection --> */
+.c1 {
+    height: 300px;
+    background-color: black;
+}
+
+.c1 h1 {}
+
+.c1 p {
+
+    margin-top: 10px;
+
+}
+
+.fa-envelope-o {
+    font-size: 25px;
+    margin-right: 5px;
+    color: #ff004f;
+}
+
+.fa-phone {
+    font-size: 25px;
+    margin-right: 5px;
+    color: #ff004f;
+}
+
+.socialmedia a {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.socialmedia a:hover {
+    color: #ff004f;
+}
+
+.b2 {
+    height: 47px;
+    width: auto;
+    background-color: black;
+    display: inline-block;
+    transform: 1s;
+    margin-top: 20px;
+    border: 2px solid #ff004f;
+    color: white;
+    padding: 10px;
+    margin-left: 30%;
+
+}
+
+.c1 .b2:hover {
+    background-color: #ff004f;
+    border: 2px solid #ff004f;
+    color: white;
+    transform: 0.5s;
+
+}
+
+.c2 {
+    height: auto;
+    background-color: black;
+}
+
+.c2 form {
+    width: 100%;
+
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border-radius: 6px;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.b3 {
+    height: 47px;
+    width: auto;
+    background-color: black;
+    display: inline-block;
+    transform: 1s;
+    margin-top: 20px;
+    border: 2px solid #ff004f;
+    color: white;
+    padding: 10px;
+
+
+}
+
+.c2 .b3:hover {
+    background-color: #ff004f;
+    border: 2px solid #ff004f;
+    color: white;
+    transform: 0.5s;
+
+}
+
+/* contact seection --> */
+
+/* project section*/
+.pj1 {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    /* background-color: blue;*/
+
+}
+
+.pj2 {
+    height: auto;
+    width: auto;
+    background-color: black;
+}
+
+.pj2 h1 {
+    font: size 20px;
+    ;
+    color: #ff004f;
+    text-align: center;
+}
+
+.pj2 h2 {
+    font-size: 20px;
+    color: #ff004f;
+    text-align: center;
+}
+
+.ss {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.doc {
+    height: 30px;
+    width: 16%;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid blue;
+    margin-top: 10px;
+    padding-left: 9px;
+    border-radius: 3px;
+
+
+}
+
+.ss a:hover {
+    background-color: rgb(44, 44, 222);
+    transition: 0.8s;
+    color: #fff;
+}
+
+.ppt {
+    height: 30px;
+    width: 9%;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid blue;
+    margin-top: 10px;
+    padding-left: 9px;
+    border-radius: 3px;
+
+}
+
+.ppt :hover {
+    background-color: rgb(52, 52, 59);
+    transition: 0.8s;
+    color: #fff;
+}
+
+.exe {
+    height: 30px;
+    width: 11%;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid blue;
+    margin-top: 10px;
+    padding-left: 9px;
+    border-radius: 3px;
+
+}
+
+.exe :hover {
+    background-color: rgb(44, 44, 222);
+    transition: 0.8s;
+    color: #fff;
+}
+
+.e1 {
+    height: 355px;
+    width: 100%;
+    background-color: #ff004f;
+    margin-top: 30px;
+
+}
+
+.e1 h3 {
+    text-align: center;
+    margin-top: 9px;
+}
+
+.e1 img {
+    height: 300px;
+}
+
+/*------project no 1 end------------*/
+
+
+
+/*------project no 2------------*/
+
+.pjh {
+    height: 100px;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 7%;
+
+}
+
+.pjh .ph {
+    color: #ff004f;
+    text-align: center;
+    font: size 40px;
+    ;
+}
+
+.pjh .ph2 {
+    color: #ff004f;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+/*------project no 2 end------------*/
